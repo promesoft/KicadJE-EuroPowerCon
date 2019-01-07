@@ -1,0 +1,1430 @@
+EESchema Schematic File Version 4
+LIBS:KicadEuropower-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Transformer_1P_2S T1
+U 1 1 5C329521
+P 8500 1150
+F 0 "T1" H 8500 1728 50  0000 C CNN
+F 1 "Transformer_1P_2S" H 8500 1637 50  0000 C CNN
+F 2 "Transformers_SMPS_ThroughHole:ETD29_13Pin_Horizontal_EPCOS-B66359A1013T" H 8500 1150 50  0001 C CNN
+F 3 "~" H 8500 1150 50  0001 C CNN
+	1    8500 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1250 3950 1250
+Wire Wire Line
+	3900 1150 3950 1150
+Wire Wire Line
+	3900 1050 3950 1050
+Wire Wire Line
+	3900 950  3950 950 
+$Comp
+L Eurorack:Doepfer_Power_10pin P3
+U 1 1 5C36F33B
+P 3550 1250
+F 0 "P3" H 3550 1815 50  0000 C CNN
+F 1 "Doepfer_Power_10pin" H 3550 1724 50  0000 C CNN
+F 2 "Connectors_IDC:IDC-Header_2x05_Pitch2.54mm_Straight" H 3550 1250 50  0001 C CNN
+F 3 "DOCUMENTATION" H 3550 1250 50  0001 C CNN
+	1    3550 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1350 3950 1350
+Wire Wire Line
+	3200 1350 3200 1500
+Wire Wire Line
+	3200 1500 3950 1500
+Wire Wire Line
+	3950 1500 3950 1350
+Wire Wire Line
+	3950 1250 3950 1150
+Connection ~ 3950 1150
+Wire Wire Line
+	3950 1150 3950 1050
+Connection ~ 3950 1050
+Wire Wire Line
+	3950 1050 4100 1050
+Wire Wire Line
+	3950 950  3950 750 
+Wire Wire Line
+	3950 750  3200 750 
+Wire Wire Line
+	3200 750  3200 950 
+Wire Wire Line
+	4100 1050 4100 650 
+Wire Wire Line
+	4100 650  3100 650 
+Wire Wire Line
+	3100 650  3100 1150
+Wire Wire Line
+	3100 1150 3200 1150
+Wire Wire Line
+	1400 1250 1450 1250
+Wire Wire Line
+	1400 1150 1450 1150
+Wire Wire Line
+	1400 1050 1450 1050
+Wire Wire Line
+	1400 950  1450 950 
+$Comp
+L Eurorack:Doepfer_Power_10pin P1
+U 1 1 5C36F406
+P 1050 1250
+F 0 "P1" H 1050 1815 50  0000 C CNN
+F 1 "Doepfer_Power_10pin" H 1050 1724 50  0000 C CNN
+F 2 "Connectors_IDC:IDC-Header_2x05_Pitch2.54mm_Straight" H 1050 1250 50  0001 C CNN
+F 3 "DOCUMENTATION" H 1050 1250 50  0001 C CNN
+	1    1050 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1350 1450 1350
+Wire Wire Line
+	700  1350 700  1500
+Wire Wire Line
+	700  1500 1450 1500
+Wire Wire Line
+	1450 1500 1450 1350
+Connection ~ 1450 1350
+Wire Wire Line
+	1450 1250 1450 1150
+Connection ~ 1450 1250
+Wire Wire Line
+	1450 1250 1800 1250
+Connection ~ 1450 1150
+Wire Wire Line
+	1450 1150 1800 1150
+Wire Wire Line
+	1450 1150 1450 1050
+Connection ~ 1450 1050
+Wire Wire Line
+	1450 1050 1600 1050
+Wire Wire Line
+	1450 950  1450 750 
+Wire Wire Line
+	1450 750  700  750 
+Wire Wire Line
+	700  750  700  950 
+Connection ~ 1450 950 
+Wire Wire Line
+	1600 1050 1600 650 
+Wire Wire Line
+	1600 650  600  650 
+Wire Wire Line
+	600  650  600  1150
+Wire Wire Line
+	600  1150 700  1150
+Connection ~ 1600 1050
+Wire Wire Line
+	1600 1050 1800 1050
+Wire Wire Line
+	2500 950  2500 700 
+Wire Wire Line
+	2500 700  1800 700 
+Wire Wire Line
+	1800 700  1800 950 
+Wire Wire Line
+	2500 1050 2550 1050
+Wire Wire Line
+	2550 1050 2550 650 
+Connection ~ 1600 650 
+Wire Wire Line
+	1450 950  1800 950 
+Wire Wire Line
+	2500 1250 2550 1250
+Wire Wire Line
+	2550 1250 2550 1150
+Connection ~ 2550 1050
+Wire Wire Line
+	2500 1150 2550 1150
+Connection ~ 2550 1150
+Wire Wire Line
+	2550 1150 2550 1050
+Text GLabel 2750 1550 2    50   Input ~ 0
+CV
+Text GLabel 2750 1650 2    50   Input ~ 0
+Gate
+Wire Wire Line
+	2500 1650 2750 1650
+$Comp
+L power:+12V #PWR06
+U 1 1 5C36F447
+P 2800 1300
+F 0 "#PWR06" H 2800 1150 50  0001 C CNN
+F 1 "+12V" H 2815 1473 50  0000 C CNN
+F 2 "" H 2800 1300 50  0001 C CNN
+F 3 "" H 2800 1300 50  0001 C CNN
+	1    2800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR01
+U 1 1 5C36F44D
+P 2800 900
+F 0 "#PWR01" H 2800 1000 50  0001 C CNN
+F 1 "-12V" H 2815 1073 50  0000 C CNN
+F 2 "" H 2800 900 50  0001 C CNN
+F 3 "" H 2800 900 50  0001 C CNN
+	1    2800 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5C36F453
+P 2650 1150
+F 0 "#PWR04" H 2650 900 50  0001 C CNN
+F 1 "GND" H 2655 977 50  0000 C CNN
+F 2 "" H 2650 1150 50  0001 C CNN
+F 3 "" H 2650 1150 50  0001 C CNN
+	1    2650 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1150 2650 1150
+Wire Wire Line
+	2800 1350 2800 1300
+Wire Wire Line
+	2800 900  2800 950 
+Wire Wire Line
+	2800 950  2500 950 
+Wire Wire Line
+	1600 650  2550 650 
+Wire Wire Line
+	2500 1550 2550 1550
+$Comp
+L Eurorack:Doepfer_Power_16pin P2
+U 1 1 5C4E57EE
+P 2150 1250
+F 0 "P2" H 2150 1915 50  0000 C CNN
+F 1 "Doepfer_Power_16pin" H 2150 1824 50  0000 C CNN
+F 2 "Connectors_IDC:IDC-Header_2x08_Pitch2.54mm_Straight" H 2150 1250 50  0001 C CNN
+F 3 "DOCUMENTATION" H 2150 1250 50  0001 C CNN
+	1    2150 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ 1800 950 
+Connection ~ 2500 950 
+Wire Wire Line
+	1450 1350 1800 1350
+Wire Wire Line
+	2500 1650 2500 1800
+Wire Wire Line
+	2500 1800 1800 1800
+Wire Wire Line
+	1800 1800 1800 1650
+Connection ~ 2500 1650
+Wire Wire Line
+	2550 1550 2550 1850
+Wire Wire Line
+	2550 1850 1750 1850
+Wire Wire Line
+	1750 1850 1750 1550
+Wire Wire Line
+	1750 1550 1800 1550
+Connection ~ 2550 1550
+Wire Wire Line
+	2550 1550 2750 1550
+Wire Wire Line
+	2500 1350 2800 1350
+Wire Wire Line
+	2500 1450 2600 1450
+Wire Wire Line
+	2600 1450 2600 1900
+Wire Wire Line
+	2600 1900 1700 1900
+Wire Wire Line
+	1700 1900 1700 1450
+Wire Wire Line
+	1700 1450 1800 1450
+$Comp
+L power:+5V #PWR08
+U 1 1 5C4F2307
+P 2900 1400
+F 0 "#PWR08" H 2900 1250 50  0001 C CNN
+F 1 "+5V" H 2915 1573 50  0000 C CNN
+F 2 "" H 2900 1400 50  0001 C CNN
+F 3 "" H 2900 1400 50  0001 C CNN
+	1    2900 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 1450 2900 1450
+Wire Wire Line
+	2900 1450 2900 1400
+Connection ~ 2600 1450
+Wire Wire Line
+	3950 1250 4300 1250
+Wire Wire Line
+	3950 1150 4300 1150
+Wire Wire Line
+	4100 1050 4300 1050
+Wire Wire Line
+	5000 950  5000 700 
+Wire Wire Line
+	5000 700  4300 700 
+Wire Wire Line
+	4300 700  4300 950 
+Wire Wire Line
+	5000 1050 5050 1050
+Wire Wire Line
+	5050 1050 5050 650 
+Wire Wire Line
+	3950 950  4300 950 
+Wire Wire Line
+	5000 1250 5050 1250
+Wire Wire Line
+	5050 1250 5050 1150
+Connection ~ 5050 1050
+Wire Wire Line
+	5000 1150 5050 1150
+Connection ~ 5050 1150
+Wire Wire Line
+	5050 1150 5050 1050
+Text GLabel 5250 1550 2    50   Input ~ 0
+CV
+Text GLabel 5250 1650 2    50   Input ~ 0
+Gate
+Wire Wire Line
+	5000 1650 5250 1650
+$Comp
+L power:+12V #PWR07
+U 1 1 5C4F8EDB
+P 5300 1300
+F 0 "#PWR07" H 5300 1150 50  0001 C CNN
+F 1 "+12V" H 5315 1473 50  0000 C CNN
+F 2 "" H 5300 1300 50  0001 C CNN
+F 3 "" H 5300 1300 50  0001 C CNN
+	1    5300 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR02
+U 1 1 5C4F8EE1
+P 5300 900
+F 0 "#PWR02" H 5300 1000 50  0001 C CNN
+F 1 "-12V" H 5315 1073 50  0000 C CNN
+F 2 "" H 5300 900 50  0001 C CNN
+F 3 "" H 5300 900 50  0001 C CNN
+	1    5300 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5C4F8EE7
+P 5150 1150
+F 0 "#PWR05" H 5150 900 50  0001 C CNN
+F 1 "GND" H 5155 977 50  0000 C CNN
+F 2 "" H 5150 1150 50  0001 C CNN
+F 3 "" H 5150 1150 50  0001 C CNN
+	1    5150 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1150 5150 1150
+Wire Wire Line
+	5300 1350 5300 1300
+Wire Wire Line
+	5300 900  5300 950 
+Wire Wire Line
+	5300 950  5000 950 
+Wire Wire Line
+	4100 650  5050 650 
+Wire Wire Line
+	5000 1550 5050 1550
+$Comp
+L Eurorack:Doepfer_Power_16pin P4
+U 1 1 5C4F8EF3
+P 4650 1250
+F 0 "P4" H 4650 1915 50  0000 C CNN
+F 1 "Doepfer_Power_16pin" H 4650 1824 50  0000 C CNN
+F 2 "Connectors_IDC:IDC-Header_2x08_Pitch2.54mm_Straight" H 4650 1250 50  0001 C CNN
+F 3 "DOCUMENTATION" H 4650 1250 50  0001 C CNN
+	1    4650 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 950 
+Connection ~ 5000 950 
+Wire Wire Line
+	3950 1350 4300 1350
+Wire Wire Line
+	5000 1650 5000 1800
+Wire Wire Line
+	5000 1800 4300 1800
+Wire Wire Line
+	4300 1800 4300 1650
+Connection ~ 5000 1650
+Wire Wire Line
+	5050 1550 5050 1850
+Wire Wire Line
+	5050 1850 4250 1850
+Wire Wire Line
+	4250 1850 4250 1550
+Wire Wire Line
+	4250 1550 4300 1550
+Connection ~ 5050 1550
+Wire Wire Line
+	5050 1550 5250 1550
+Wire Wire Line
+	5000 1350 5300 1350
+Wire Wire Line
+	5000 1450 5100 1450
+Wire Wire Line
+	5100 1450 5100 1900
+Wire Wire Line
+	5100 1900 4200 1900
+Wire Wire Line
+	4200 1900 4200 1450
+Wire Wire Line
+	4200 1450 4300 1450
+$Comp
+L power:+5V #PWR09
+U 1 1 5C4F8F0C
+P 5400 1400
+F 0 "#PWR09" H 5400 1250 50  0001 C CNN
+F 1 "+5V" H 5415 1573 50  0000 C CNN
+F 2 "" H 5400 1400 50  0001 C CNN
+F 3 "" H 5400 1400 50  0001 C CNN
+	1    5400 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1450 5400 1450
+Wire Wire Line
+	5400 1450 5400 1400
+Connection ~ 5100 1450
+Connection ~ 3950 950 
+Connection ~ 3950 1250
+Connection ~ 3950 1350
+Connection ~ 4100 650 
+Connection ~ 4100 1050
+Wire Wire Line
+	3200 1250 3200 1150
+Connection ~ 3200 1150
+Wire Wire Line
+	3200 1050 3200 1150
+Wire Wire Line
+	3950 2650 4000 2650
+Wire Wire Line
+	3950 2550 4000 2550
+Wire Wire Line
+	3950 2450 4000 2450
+Wire Wire Line
+	3950 2350 4000 2350
+$Comp
+L Eurorack:Doepfer_Power_10pin P7
+U 1 1 5C501E6B
+P 3600 2650
+F 0 "P7" H 3600 3215 50  0000 C CNN
+F 1 "Doepfer_Power_10pin" H 3600 3124 50  0000 C CNN
+F 2 "Connectors_IDC:IDC-Header_2x05_Pitch2.54mm_Straight" H 3600 2650 50  0001 C CNN
+F 3 "DOCUMENTATION" H 3600 2650 50  0001 C CNN
+	1    3600 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2750 4000 2750
+Wire Wire Line
+	3250 2750 3250 2900
+Wire Wire Line
+	3250 2900 4000 2900
+Wire Wire Line
+	4000 2900 4000 2750
+Wire Wire Line
+	4000 2650 4000 2550
+Connection ~ 4000 2550
+Wire Wire Line
+	4000 2550 4000 2450
+Connection ~ 4000 2450
+Wire Wire Line
+	4000 2450 4150 2450
+Wire Wire Line
+	4000 2350 4000 2150
+Wire Wire Line
+	4000 2150 3250 2150
+Wire Wire Line
+	3250 2150 3250 2350
+Wire Wire Line
+	4150 2450 4150 2050
+Wire Wire Line
+	4150 2050 3150 2050
+Wire Wire Line
+	3150 2050 3150 2550
+Wire Wire Line
+	3150 2550 3250 2550
+Wire Wire Line
+	1450 2650 1500 2650
+Wire Wire Line
+	1450 2550 1500 2550
+Wire Wire Line
+	1450 2450 1500 2450
+Wire Wire Line
+	1450 2350 1500 2350
+$Comp
+L Eurorack:Doepfer_Power_10pin P5
+U 1 1 5C501E85
+P 1100 2650
+F 0 "P5" H 1100 3215 50  0000 C CNN
+F 1 "Doepfer_Power_10pin" H 1100 3124 50  0000 C CNN
+F 2 "Connectors_IDC:IDC-Header_2x05_Pitch2.54mm_Straight" H 1100 2650 50  0001 C CNN
+F 3 "DOCUMENTATION" H 1100 2650 50  0001 C CNN
+	1    1100 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 2750 1500 2750
+Wire Wire Line
+	750  2750 750  2900
+Wire Wire Line
+	750  2900 1500 2900
+Wire Wire Line
+	1500 2900 1500 2750
+Connection ~ 1500 2750
+Wire Wire Line
+	1500 2650 1500 2550
+Connection ~ 1500 2650
+Wire Wire Line
+	1500 2650 1850 2650
+Connection ~ 1500 2550
+Wire Wire Line
+	1500 2550 1850 2550
+Wire Wire Line
+	1500 2550 1500 2450
+Connection ~ 1500 2450
+Wire Wire Line
+	1500 2450 1650 2450
+Wire Wire Line
+	1500 2350 1500 2150
+Wire Wire Line
+	1500 2150 750  2150
+Wire Wire Line
+	750  2150 750  2350
+Connection ~ 1500 2350
+Wire Wire Line
+	1650 2450 1650 2050
+Wire Wire Line
+	1650 2050 650  2050
+Wire Wire Line
+	650  2050 650  2550
+Wire Wire Line
+	650  2550 750  2550
+Connection ~ 1650 2450
+Wire Wire Line
+	1650 2450 1850 2450
+Wire Wire Line
+	2550 2350 2550 2100
+Wire Wire Line
+	2550 2100 1850 2100
+Wire Wire Line
+	1850 2100 1850 2350
+Wire Wire Line
+	2550 2450 2600 2450
+Wire Wire Line
+	2600 2450 2600 2050
+Connection ~ 1650 2050
+Wire Wire Line
+	1500 2350 1850 2350
+Wire Wire Line
+	2550 2650 2600 2650
+Wire Wire Line
+	2600 2650 2600 2550
+Connection ~ 2600 2450
+Wire Wire Line
+	2550 2550 2600 2550
+Connection ~ 2600 2550
+Wire Wire Line
+	2600 2550 2600 2450
+Text GLabel 2800 2950 2    50   Input ~ 0
+CV
+Text GLabel 2800 3050 2    50   Input ~ 0
+Gate
+Wire Wire Line
+	2550 3050 2800 3050
+$Comp
+L power:+12V #PWR016
+U 1 1 5C501EB2
+P 2850 2700
+F 0 "#PWR016" H 2850 2550 50  0001 C CNN
+F 1 "+12V" H 2865 2873 50  0000 C CNN
+F 2 "" H 2850 2700 50  0001 C CNN
+F 3 "" H 2850 2700 50  0001 C CNN
+	1    2850 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR012
+U 1 1 5C501EB8
+P 2850 2300
+F 0 "#PWR012" H 2850 2400 50  0001 C CNN
+F 1 "-12V" H 2865 2473 50  0000 C CNN
+F 2 "" H 2850 2300 50  0001 C CNN
+F 3 "" H 2850 2300 50  0001 C CNN
+	1    2850 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 5C501EBE
+P 2700 2550
+F 0 "#PWR014" H 2700 2300 50  0001 C CNN
+F 1 "GND" H 2705 2377 50  0000 C CNN
+F 2 "" H 2700 2550 50  0001 C CNN
+F 3 "" H 2700 2550 50  0001 C CNN
+	1    2700 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2550 2700 2550
+Wire Wire Line
+	2850 2750 2850 2700
+Wire Wire Line
+	2850 2300 2850 2350
+Wire Wire Line
+	2850 2350 2550 2350
+Wire Wire Line
+	1650 2050 2600 2050
+Wire Wire Line
+	2550 2950 2600 2950
+$Comp
+L Eurorack:Doepfer_Power_16pin P6
+U 1 1 5C501ECA
+P 2200 2650
+F 0 "P6" H 2200 3315 50  0000 C CNN
+F 1 "Doepfer_Power_16pin" H 2200 3224 50  0000 C CNN
+F 2 "Connectors_IDC:IDC-Header_2x08_Pitch2.54mm_Straight" H 2200 2650 50  0001 C CNN
+F 3 "DOCUMENTATION" H 2200 2650 50  0001 C CNN
+	1    2200 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 1850 2350
+Connection ~ 2550 2350
+Wire Wire Line
+	1500 2750 1850 2750
+Wire Wire Line
+	2550 3050 2550 3200
+Wire Wire Line
+	2550 3200 1850 3200
+Wire Wire Line
+	1850 3200 1850 3050
+Connection ~ 2550 3050
+Wire Wire Line
+	2600 2950 2600 3250
+Wire Wire Line
+	2600 3250 1800 3250
+Wire Wire Line
+	1800 3250 1800 2950
+Wire Wire Line
+	1800 2950 1850 2950
+Connection ~ 2600 2950
+Wire Wire Line
+	2600 2950 2800 2950
+Wire Wire Line
+	2550 2750 2850 2750
+Wire Wire Line
+	2550 2850 2650 2850
+Wire Wire Line
+	2650 2850 2650 3300
+Wire Wire Line
+	2650 3300 1750 3300
+Wire Wire Line
+	1750 3300 1750 2850
+Wire Wire Line
+	1750 2850 1850 2850
+$Comp
+L power:+5V #PWR018
+U 1 1 5C501EE3
+P 2950 2800
+F 0 "#PWR018" H 2950 2650 50  0001 C CNN
+F 1 "+5V" H 2965 2973 50  0000 C CNN
+F 2 "" H 2950 2800 50  0001 C CNN
+F 3 "" H 2950 2800 50  0001 C CNN
+	1    2950 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2850 2950 2850
+Wire Wire Line
+	2950 2850 2950 2800
+Connection ~ 2650 2850
+Wire Wire Line
+	4000 2650 4350 2650
+Wire Wire Line
+	4000 2550 4350 2550
+Wire Wire Line
+	4150 2450 4350 2450
+Wire Wire Line
+	5050 2350 5050 2100
+Wire Wire Line
+	5050 2100 4350 2100
+Wire Wire Line
+	4350 2100 4350 2350
+Wire Wire Line
+	5050 2450 5100 2450
+Wire Wire Line
+	5100 2450 5100 2050
+Wire Wire Line
+	4000 2350 4350 2350
+Wire Wire Line
+	5050 2650 5100 2650
+Wire Wire Line
+	5100 2650 5100 2550
+Connection ~ 5100 2450
+Wire Wire Line
+	5050 2550 5100 2550
+Connection ~ 5100 2550
+Wire Wire Line
+	5100 2550 5100 2450
+Text GLabel 5300 2950 2    50   Input ~ 0
+CV
+Text GLabel 5300 3050 2    50   Input ~ 0
+Gate
+Wire Wire Line
+	5050 3050 5300 3050
+$Comp
+L power:+12V #PWR017
+U 1 1 5C501EFE
+P 5350 2700
+F 0 "#PWR017" H 5350 2550 50  0001 C CNN
+F 1 "+12V" H 5365 2873 50  0000 C CNN
+F 2 "" H 5350 2700 50  0001 C CNN
+F 3 "" H 5350 2700 50  0001 C CNN
+	1    5350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR013
+U 1 1 5C501F04
+P 5350 2300
+F 0 "#PWR013" H 5350 2400 50  0001 C CNN
+F 1 "-12V" H 5365 2473 50  0000 C CNN
+F 2 "" H 5350 2300 50  0001 C CNN
+F 3 "" H 5350 2300 50  0001 C CNN
+	1    5350 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 5C501F0A
+P 5200 2550
+F 0 "#PWR015" H 5200 2300 50  0001 C CNN
+F 1 "GND" H 5205 2377 50  0000 C CNN
+F 2 "" H 5200 2550 50  0001 C CNN
+F 3 "" H 5200 2550 50  0001 C CNN
+	1    5200 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2550 5200 2550
+Wire Wire Line
+	5350 2750 5350 2700
+Wire Wire Line
+	5350 2300 5350 2350
+Wire Wire Line
+	5350 2350 5050 2350
+Wire Wire Line
+	4150 2050 5100 2050
+Wire Wire Line
+	5050 2950 5100 2950
+$Comp
+L Eurorack:Doepfer_Power_16pin P8
+U 1 1 5C501F16
+P 4700 2650
+F 0 "P8" H 4700 3315 50  0000 C CNN
+F 1 "Doepfer_Power_16pin" H 4700 3224 50  0000 C CNN
+F 2 "Connectors_IDC:IDC-Header_2x08_Pitch2.54mm_Straight" H 4700 2650 50  0001 C CNN
+F 3 "DOCUMENTATION" H 4700 2650 50  0001 C CNN
+	1    4700 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 2350
+Connection ~ 5050 2350
+Wire Wire Line
+	4000 2750 4350 2750
+Wire Wire Line
+	5050 3050 5050 3200
+Wire Wire Line
+	5050 3200 4350 3200
+Wire Wire Line
+	4350 3200 4350 3050
+Connection ~ 5050 3050
+Wire Wire Line
+	5100 2950 5100 3250
+Wire Wire Line
+	5100 3250 4300 3250
+Wire Wire Line
+	4300 3250 4300 2950
+Wire Wire Line
+	4300 2950 4350 2950
+Connection ~ 5100 2950
+Wire Wire Line
+	5100 2950 5300 2950
+Wire Wire Line
+	5050 2750 5350 2750
+Wire Wire Line
+	5050 2850 5150 2850
+Wire Wire Line
+	5150 2850 5150 3300
+Wire Wire Line
+	5150 3300 4250 3300
+Wire Wire Line
+	4250 3300 4250 2850
+Wire Wire Line
+	4250 2850 4350 2850
+$Comp
+L power:+5V #PWR019
+U 1 1 5C501F2F
+P 5450 2800
+F 0 "#PWR019" H 5450 2650 50  0001 C CNN
+F 1 "+5V" H 5465 2973 50  0000 C CNN
+F 2 "" H 5450 2800 50  0001 C CNN
+F 3 "" H 5450 2800 50  0001 C CNN
+	1    5450 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2850 5450 2850
+Wire Wire Line
+	5450 2850 5450 2800
+Connection ~ 5150 2850
+Connection ~ 4000 2350
+Connection ~ 4000 2650
+Connection ~ 4000 2750
+Connection ~ 4150 2050
+Connection ~ 4150 2450
+Wire Wire Line
+	1500 4150 1550 4150
+Wire Wire Line
+	1500 4050 1550 4050
+Wire Wire Line
+	1500 3950 1550 3950
+Wire Wire Line
+	1500 3850 1550 3850
+$Comp
+L Eurorack:Doepfer_Power_10pin P9
+U 1 1 5C50EBF4
+P 1150 4150
+F 0 "P9" H 1150 4715 50  0000 C CNN
+F 1 "Doepfer_Power_10pin" H 1150 4624 50  0000 C CNN
+F 2 "Connectors_IDC:IDC-Header_2x05_Pitch2.54mm_Straight" H 1150 4150 50  0001 C CNN
+F 3 "DOCUMENTATION" H 1150 4150 50  0001 C CNN
+	1    1150 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 4250 1550 4250
+Wire Wire Line
+	800  4250 800  4400
+Wire Wire Line
+	800  4400 1550 4400
+Wire Wire Line
+	1550 4400 1550 4250
+Wire Wire Line
+	1550 4150 1550 4050
+Connection ~ 1550 4050
+Wire Wire Line
+	1550 4050 1550 3950
+Connection ~ 1550 3950
+Wire Wire Line
+	1550 3950 1700 3950
+Wire Wire Line
+	1550 3850 1550 3650
+Wire Wire Line
+	1550 3650 800  3650
+Wire Wire Line
+	800  3650 800  3850
+Wire Wire Line
+	1700 3950 1700 3550
+Wire Wire Line
+	1700 3550 700  3550
+Wire Wire Line
+	700  3550 700  4050
+Wire Wire Line
+	700  4050 800  4050
+Connection ~ 1700 3550
+Wire Wire Line
+	1700 3550 2650 3550
+$Comp
+L Eurorack:Doepfer_Power_10pin P10
+U 1 1 5C51F893
+P 2200 4150
+F 0 "P10" H 2200 4715 50  0000 C CNN
+F 1 "Doepfer_Power_10pin" H 2200 4624 50  0000 C CNN
+F 2 "Connectors_IDC:IDC-Header_2x05_Pitch2.54mm_Straight" H 2200 4150 50  0001 C CNN
+F 3 "DOCUMENTATION" H 2200 4150 50  0001 C CNN
+	1    2200 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 3850 1850 3850
+Connection ~ 1550 3850
+Wire Wire Line
+	1850 3950 1700 3950
+Connection ~ 1700 3950
+Wire Wire Line
+	1850 4150 1850 4050
+Wire Wire Line
+	1850 3950 1850 4050
+Connection ~ 1850 3950
+Connection ~ 1850 4050
+Wire Wire Line
+	1850 4250 1550 4250
+Connection ~ 1550 4250
+Wire Wire Line
+	2650 3550 2650 3950
+Wire Wire Line
+	2650 3950 2550 3950
+Wire Wire Line
+	2550 4150 2550 4050
+Wire Wire Line
+	2550 4050 2550 3950
+Connection ~ 2550 4050
+Connection ~ 2550 3950
+Wire Wire Line
+	2550 3850 2550 3700
+Wire Wire Line
+	2550 3700 1850 3700
+Wire Wire Line
+	1850 3700 1850 3850
+Connection ~ 1850 3850
+Wire Wire Line
+	2550 4250 2550 4400
+Wire Wire Line
+	2550 4400 1850 4400
+Wire Wire Line
+	1850 4400 1850 4250
+Connection ~ 1850 4250
+$Comp
+L power:+12V #PWR024
+U 1 1 5C5D7DB3
+P 2800 4250
+F 0 "#PWR024" H 2800 4100 50  0001 C CNN
+F 1 "+12V" H 2815 4423 50  0000 C CNN
+F 2 "" H 2800 4250 50  0001 C CNN
+F 3 "" H 2800 4250 50  0001 C CNN
+	1    2800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR020
+U 1 1 5C5D7DD4
+P 2800 3850
+F 0 "#PWR020" H 2800 3950 50  0001 C CNN
+F 1 "-12V" H 2815 4023 50  0000 C CNN
+F 2 "" H 2800 3850 50  0001 C CNN
+F 3 "" H 2800 3850 50  0001 C CNN
+	1    2800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 5C5D7DF5
+P 2650 4050
+F 0 "#PWR022" H 2650 3800 50  0001 C CNN
+F 1 "GND" H 2655 3877 50  0000 C CNN
+F 2 "" H 2650 4050 50  0001 C CNN
+F 3 "" H 2650 4050 50  0001 C CNN
+	1    2650 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 4050 2650 4050
+Wire Wire Line
+	2550 3850 2800 3850
+Connection ~ 2550 3850
+Wire Wire Line
+	2550 4250 2800 4250
+Connection ~ 2550 4250
+Wire Wire Line
+	4000 4150 4050 4150
+Wire Wire Line
+	4000 4050 4050 4050
+Wire Wire Line
+	4000 3950 4050 3950
+Wire Wire Line
+	4000 3850 4050 3850
+$Comp
+L Eurorack:Doepfer_Power_10pin P11
+U 1 1 5C60EE0F
+P 3650 4150
+F 0 "P11" H 3650 4715 50  0000 C CNN
+F 1 "Doepfer_Power_10pin" H 3650 4624 50  0000 C CNN
+F 2 "Connectors_IDC:IDC-Header_2x05_Pitch2.54mm_Straight" H 3650 4150 50  0001 C CNN
+F 3 "DOCUMENTATION" H 3650 4150 50  0001 C CNN
+	1    3650 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4250 4050 4250
+Wire Wire Line
+	3300 4250 3300 4400
+Wire Wire Line
+	3300 4400 4050 4400
+Wire Wire Line
+	4050 4400 4050 4250
+Wire Wire Line
+	4050 4150 4050 4050
+Connection ~ 4050 4050
+Wire Wire Line
+	4050 4050 4050 3950
+Connection ~ 4050 3950
+Wire Wire Line
+	4050 3950 4200 3950
+Wire Wire Line
+	4050 3850 4050 3650
+Wire Wire Line
+	4050 3650 3300 3650
+Wire Wire Line
+	3300 3650 3300 3850
+Wire Wire Line
+	4200 3950 4200 3550
+Wire Wire Line
+	4200 3550 3200 3550
+Wire Wire Line
+	3200 3550 3200 4050
+Wire Wire Line
+	3200 4050 3300 4050
+Connection ~ 4200 3550
+Wire Wire Line
+	4200 3550 5150 3550
+$Comp
+L Eurorack:Doepfer_Power_10pin P12
+U 1 1 5C60EE27
+P 4700 4150
+F 0 "P12" H 4700 4715 50  0000 C CNN
+F 1 "Doepfer_Power_10pin" H 4700 4624 50  0000 C CNN
+F 2 "Connectors_IDC:IDC-Header_2x05_Pitch2.54mm_Straight" H 4700 4150 50  0001 C CNN
+F 3 "DOCUMENTATION" H 4700 4150 50  0001 C CNN
+	1    4700 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3850 4350 3850
+Connection ~ 4050 3850
+Wire Wire Line
+	4350 3950 4200 3950
+Connection ~ 4200 3950
+Wire Wire Line
+	4350 4250 4050 4250
+Connection ~ 4050 4250
+Wire Wire Line
+	5150 3550 5150 3950
+Wire Wire Line
+	5150 3950 5050 3950
+Wire Wire Line
+	5050 3850 5050 3700
+Wire Wire Line
+	5050 3700 4350 3700
+Wire Wire Line
+	4350 3700 4350 3850
+Connection ~ 4350 3850
+Wire Wire Line
+	5050 4250 5050 4400
+Wire Wire Line
+	5050 4400 4350 4400
+Wire Wire Line
+	4350 4400 4350 4250
+Connection ~ 4350 4250
+$Comp
+L power:+12V #PWR025
+U 1 1 5C60EE45
+P 5300 4250
+F 0 "#PWR025" H 5300 4100 50  0001 C CNN
+F 1 "+12V" H 5315 4423 50  0000 C CNN
+F 2 "" H 5300 4250 50  0001 C CNN
+F 3 "" H 5300 4250 50  0001 C CNN
+	1    5300 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR021
+U 1 1 5C60EE4B
+P 5300 3850
+F 0 "#PWR021" H 5300 3950 50  0001 C CNN
+F 1 "-12V" H 5315 4023 50  0000 C CNN
+F 2 "" H 5300 3850 50  0001 C CNN
+F 3 "" H 5300 3850 50  0001 C CNN
+	1    5300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 5C60EE51
+P 5150 4050
+F 0 "#PWR023" H 5150 3800 50  0001 C CNN
+F 1 "GND" H 5155 3877 50  0000 C CNN
+F 2 "" H 5150 4050 50  0001 C CNN
+F 3 "" H 5150 4050 50  0001 C CNN
+	1    5150 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4050 5150 4050
+Wire Wire Line
+	5050 3850 5300 3850
+Connection ~ 5050 3850
+Wire Wire Line
+	5050 4250 5300 4250
+Connection ~ 5050 4250
+Wire Wire Line
+	1500 5250 1550 5250
+Wire Wire Line
+	1500 5150 1550 5150
+Wire Wire Line
+	1500 5050 1550 5050
+Wire Wire Line
+	1500 4950 1550 4950
+$Comp
+L Eurorack:Doepfer_Power_10pin P13
+U 1 1 5C63C803
+P 1150 5250
+F 0 "P13" H 1150 5815 50  0000 C CNN
+F 1 "Doepfer_Power_10pin" H 1150 5724 50  0000 C CNN
+F 2 "Connectors_IDC:IDC-Header_2x05_Pitch2.54mm_Straight" H 1150 5250 50  0001 C CNN
+F 3 "DOCUMENTATION" H 1150 5250 50  0001 C CNN
+	1    1150 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 5350 1550 5350
+Wire Wire Line
+	800  5350 800  5500
+Wire Wire Line
+	800  5500 1550 5500
+Wire Wire Line
+	1550 5500 1550 5350
+Wire Wire Line
+	1550 5250 1550 5150
+Connection ~ 1550 5150
+Wire Wire Line
+	1550 5150 1550 5050
+Connection ~ 1550 5050
+Wire Wire Line
+	1550 5050 1700 5050
+Wire Wire Line
+	1550 4950 1550 4750
+Wire Wire Line
+	1550 4750 800  4750
+Wire Wire Line
+	800  4750 800  4950
+Wire Wire Line
+	1700 5050 1700 4650
+Wire Wire Line
+	1700 4650 700  4650
+Wire Wire Line
+	700  4650 700  5150
+Wire Wire Line
+	700  5150 800  5150
+Connection ~ 1700 4650
+Wire Wire Line
+	1700 4650 2650 4650
+$Comp
+L Eurorack:Doepfer_Power_10pin P14
+U 1 1 5C63C81B
+P 2200 5250
+F 0 "P14" H 2200 5815 50  0000 C CNN
+F 1 "Doepfer_Power_10pin" H 2200 5724 50  0000 C CNN
+F 2 "Connectors_IDC:IDC-Header_2x05_Pitch2.54mm_Straight" H 2200 5250 50  0001 C CNN
+F 3 "DOCUMENTATION" H 2200 5250 50  0001 C CNN
+	1    2200 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 4950 1850 4950
+Connection ~ 1550 4950
+Wire Wire Line
+	1850 5050 1700 5050
+Connection ~ 1700 5050
+Wire Wire Line
+	1850 5350 1550 5350
+Connection ~ 1550 5350
+Wire Wire Line
+	2650 4650 2650 5050
+Wire Wire Line
+	2650 5050 2550 5050
+Wire Wire Line
+	2550 4950 2550 4800
+Wire Wire Line
+	2550 4800 1850 4800
+Wire Wire Line
+	1850 4800 1850 4950
+Connection ~ 1850 4950
+Wire Wire Line
+	2550 5350 2550 5500
+Wire Wire Line
+	2550 5500 1850 5500
+Wire Wire Line
+	1850 5500 1850 5350
+Connection ~ 1850 5350
+$Comp
+L power:+12V #PWR030
+U 1 1 5C63C839
+P 2800 5350
+F 0 "#PWR030" H 2800 5200 50  0001 C CNN
+F 1 "+12V" H 2815 5523 50  0000 C CNN
+F 2 "" H 2800 5350 50  0001 C CNN
+F 3 "" H 2800 5350 50  0001 C CNN
+	1    2800 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR026
+U 1 1 5C63C83F
+P 2800 4950
+F 0 "#PWR026" H 2800 5050 50  0001 C CNN
+F 1 "-12V" H 2815 5123 50  0000 C CNN
+F 2 "" H 2800 4950 50  0001 C CNN
+F 3 "" H 2800 4950 50  0001 C CNN
+	1    2800 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR028
+U 1 1 5C63C845
+P 2650 5150
+F 0 "#PWR028" H 2650 4900 50  0001 C CNN
+F 1 "GND" H 2655 4977 50  0000 C CNN
+F 2 "" H 2650 5150 50  0001 C CNN
+F 3 "" H 2650 5150 50  0001 C CNN
+	1    2650 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 5150 2650 5150
+Wire Wire Line
+	2550 4950 2800 4950
+Connection ~ 2550 4950
+Wire Wire Line
+	2550 5350 2800 5350
+Connection ~ 2550 5350
+Wire Wire Line
+	800  4150 800  4050
+Connection ~ 800  4050
+Wire Wire Line
+	800  4050 800  3950
+Wire Wire Line
+	800  5250 800  5150
+Connection ~ 800  5150
+Wire Wire Line
+	800  5150 800  5050
+Wire Wire Line
+	2550 5250 2550 5150
+Connection ~ 2550 5050
+Connection ~ 2550 5150
+Wire Wire Line
+	2550 5150 2550 5050
+Wire Wire Line
+	1850 5250 1850 5150
+Connection ~ 1850 5050
+Connection ~ 1850 5150
+Wire Wire Line
+	1850 5150 1850 5050
+Wire Wire Line
+	3300 4150 3300 4050
+Connection ~ 3300 4050
+Wire Wire Line
+	3300 4050 3300 3950
+Wire Wire Line
+	4350 4150 4350 4050
+Connection ~ 4350 3950
+Connection ~ 4350 4050
+Wire Wire Line
+	4350 4050 4350 3950
+Wire Wire Line
+	5050 4150 5050 4050
+Connection ~ 5050 3950
+Connection ~ 5050 4050
+Wire Wire Line
+	5050 4050 5050 3950
+$Comp
+L Jumper:Jumper_2_Bridged JP1
+U 1 1 5C7A6AEE
+P 9200 750
+F 0 "JP1" H 9200 945 50  0000 C CNN
+F 1 "Jumper_2_Bridged" H 9200 854 50  0000 C CNN
+F 2 "" H 9200 750 50  0001 C CNN
+F 3 "~" H 9200 750 50  0001 C CNN
+	1    9200 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Bridged JP2
+U 1 1 5C7A6B62
+P 9200 1050
+F 0 "JP2" H 9200 1245 50  0000 C CNN
+F 1 "Jumper_2_Bridged" H 9200 1154 50  0000 C CNN
+F 2 "" H 9200 1050 50  0001 C CNN
+F 3 "~" H 9200 1050 50  0001 C CNN
+	1    9200 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Bridged JP3
+U 1 1 5C7A6BA2
+P 9200 1250
+F 0 "JP3" H 9200 1445 50  0000 C CNN
+F 1 "Jumper_2_Bridged" H 9200 1354 50  0000 C CNN
+F 2 "" H 9200 1250 50  0001 C CNN
+F 3 "~" H 9200 1250 50  0001 C CNN
+	1    9200 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Bridged JP4
+U 1 1 5C7A6BE4
+P 9200 1550
+F 0 "JP4" H 9200 1745 50  0000 C CNN
+F 1 "Jumper_2_Bridged" H 9200 1654 50  0000 C CNN
+F 2 "" H 9200 1550 50  0001 C CNN
+F 3 "~" H 9200 1550 50  0001 C CNN
+	1    9200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5C7A6C3B
+P 9600 1600
+F 0 "#PWR010" H 9600 1350 50  0001 C CNN
+F 1 "GND" H 9605 1427 50  0000 C CNN
+F 2 "" H 9600 1600 50  0001 C CNN
+F 3 "" H 9600 1600 50  0001 C CNN
+	1    9600 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 1250 9000 1250
+Wire Wire Line
+	8900 1050 9000 1050
+Wire Wire Line
+	8900 750  9000 750 
+Wire Wire Line
+	8900 1550 9000 1550
+Wire Wire Line
+	9400 1550 9600 1550
+Wire Wire Line
+	9600 1550 9600 1600
+Wire Wire Line
+	9400 1050 9600 1050
+Wire Wire Line
+	9600 1050 9600 1550
+Connection ~ 9600 1550
+$Comp
+L Device:D_Bridge_+-AA D1
+U 1 1 5C88CAB7
+P 10150 1250
+F 0 "D1" V 10196 909 50  0000 R CNN
+F 1 "D_Bridge_+-AA" V 10105 909 50  0000 R CNN
+F 2 "" H 10150 1250 50  0001 C CNN
+F 3 "~" H 10150 1250 50  0001 C CNN
+	1    10150 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9400 750  9600 750 
+$Comp
+L power:-12V #PWR011
+U 1 1 5C902E9A
+P 10150 1600
+F 0 "#PWR011" H 10150 1700 50  0001 C CNN
+F 1 "-12V" H 10165 1773 50  0000 C CNN
+F 2 "" H 10150 1600 50  0001 C CNN
+F 3 "" H 10150 1600 50  0001 C CNN
+	1    10150 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR03
+U 1 1 5C902FC3
+P 10150 900
+F 0 "#PWR03" H 10150 750 50  0001 C CNN
+F 1 "+12V" H 10165 1073 50  0000 C CNN
+F 2 "" H 10150 900 50  0001 C CNN
+F 3 "" H 10150 900 50  0001 C CNN
+	1    10150 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 950  10150 900 
+Wire Wire Line
+	10150 1550 10150 1600
+$Comp
+L Device:Fuse_Small F1
+U 1 1 5C95216F
+P 9700 750
+F 0 "F1" H 9700 935 50  0000 C CNN
+F 1 "Fuse_Small" H 9700 844 50  0000 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 9700 750 50  0001 C CNN
+F 3 "~" H 9700 750 50  0001 C CNN
+	1    9700 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse_Small F3
+U 1 1 5C9521CB
+P 9750 1250
+F 0 "F3" H 9750 1435 50  0000 C CNN
+F 1 "Fuse_Small" H 9750 1344 50  0000 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 9750 1250 50  0001 C CNN
+F 3 "~" H 9750 1250 50  0001 C CNN
+	1    9750 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 1250 9750 1250
+Wire Wire Line
+	9400 1250 9650 1250
+Wire Wire Line
+	10450 1250 10450 750 
+Wire Wire Line
+	9800 750  10450 750 
+$Comp
+L Device:Fuse_Small F2
+U 1 1 5C9F2136
+P 7750 950
+F 0 "F2" H 7750 1135 50  0000 C CNN
+F 1 "Fuse_Small" H 7750 1044 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Blade_Mini_Keystone_3568" H 7750 950 50  0001 C CNN
+F 3 "~" H 7750 950 50  0001 C CNN
+	1    7750 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Varistor RV1
+U 1 1 5C9F232C
+P 7950 1150
+F 0 "RV1" H 8053 1196 50  0000 L CNN
+F 1 "Varistor" H 8053 1105 50  0000 L CNN
+F 2 "Varistor:RV_Disc_D12mm_W4.8mm_P7.5mm" V 7880 1150 50  0001 C CNN
+F 3 "~" H 7950 1150 50  0001 C CNN
+	1    7950 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 950  7950 950 
+Wire Wire Line
+	7950 1000 7950 950 
+Connection ~ 7950 950 
+Wire Wire Line
+	7950 950  8100 950 
+Wire Wire Line
+	7950 1350 7950 1300
+Wire Wire Line
+	7550 1350 7950 1350
+Connection ~ 7950 1350
+Wire Wire Line
+	7950 1350 8100 1350
+$EndSCHEMATC
