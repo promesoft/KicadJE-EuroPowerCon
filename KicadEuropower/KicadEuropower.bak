@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Eurorack Power"
+Date "2019-01-08"
+Rev "Rev A"
+Comp "Johansen Engineering"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -210,7 +210,7 @@ $EndComp
 Connection ~ 1850 4250
 Connection ~ 2550 4250
 Wire Wire Line
-	1500 4650 1850 4650
+	1500 4650 1700 4650
 Wire Wire Line
 	2550 4950 2550 5100
 Wire Wire Line
@@ -230,7 +230,7 @@ Connection ~ 2600 4850
 Wire Wire Line
 	2600 4850 2800 4850
 Wire Wire Line
-	2550 4650 2850 4650
+	2550 4650 2700 4650
 Wire Wire Line
 	2550 4750 2650 4750
 Wire Wire Line
@@ -350,7 +350,7 @@ $EndComp
 Connection ~ 4350 4250
 Connection ~ 5050 4250
 Wire Wire Line
-	4000 4650 4350 4650
+	4000 4650 4200 4650
 Wire Wire Line
 	5050 4950 5050 5100
 Wire Wire Line
@@ -369,8 +369,6 @@ Wire Wire Line
 Connection ~ 5100 4850
 Wire Wire Line
 	5100 4850 5300 4850
-Wire Wire Line
-	5050 4650 5350 4650
 Wire Wire Line
 	5050 4750 5150 4750
 Wire Wire Line
@@ -603,7 +601,7 @@ $EndComp
 Connection ~ 1900 5650
 Connection ~ 2600 5650
 Wire Wire Line
-	1550 6050 1900 6050
+	1550 6050 1750 6050
 Wire Wire Line
 	2600 6350 2600 6500
 Wire Wire Line
@@ -623,7 +621,7 @@ Connection ~ 2650 6250
 Wire Wire Line
 	2650 6250 2850 6250
 Wire Wire Line
-	2600 6050 2900 6050
+	2600 6050 2750 6050
 Wire Wire Line
 	2600 6150 2700 6150
 Wire Wire Line
@@ -743,8 +741,6 @@ $EndComp
 Connection ~ 4400 5650
 Connection ~ 5100 5650
 Wire Wire Line
-	4050 6050 4400 6050
-Wire Wire Line
 	5100 6350 5100 6500
 Wire Wire Line
 	5100 6500 4400 6500
@@ -763,7 +759,7 @@ Connection ~ 5150 6250
 Wire Wire Line
 	5150 6250 5350 6250
 Wire Wire Line
-	5100 6050 5400 6050
+	5100 6050 5250 6050
 Wire Wire Line
 	5100 6150 5200 6150
 Wire Wire Line
@@ -1350,8 +1346,6 @@ Wire Wire Line
 	2400 1400 2400 1200
 Connection ~ 1800 1000
 Connection ~ 1800 1400
-Wire Wire Line
-	1800 1400 2250 1400
 Wire Wire Line
 	1800 1000 1900 1000
 $Comp
@@ -2771,7 +2765,7 @@ L Connector:TestPoint TP2
 U 1 1 5EC423B3
 P 7300 2800
 F 0 "TP2" H 7358 2920 50  0000 L CNN
-F 1 "TestPoint" H 7358 2829 50  0000 L CNN
+F 1 "Vin+15" H 7358 2829 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 7500 2800 50  0001 C CNN
 F 3 "~" H 7500 2800 50  0001 C CNN
 	1    7300 2800
@@ -2783,7 +2777,7 @@ L Connector:TestPoint TP4
 U 1 1 5EC4267C
 P 7300 3800
 F 0 "TP4" H 7242 3827 50  0000 R CNN
-F 1 "TestPoint" H 7242 3918 50  0000 R CNN
+F 1 "Vin-15" H 7242 3918 50  0000 R CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 7500 3800 50  0001 C CNN
 F 3 "~" H 7500 3800 50  0001 C CNN
 	1    7300 3800
@@ -2795,7 +2789,7 @@ L Connector:TestPoint TP3
 U 1 1 5EC4289A
 P 9500 3300
 F 0 "TP3" H 9558 3420 50  0000 L CNN
-F 1 "TestPoint" H 9558 3329 50  0000 L CNN
+F 1 "VGnd" H 9558 3329 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 9700 3300 50  0001 C CNN
 F 3 "~" H 9700 3300 50  0001 C CNN
 	1    9500 3300
@@ -2807,7 +2801,7 @@ L Connector:TestPoint TP1
 U 1 1 5EC4299A
 P 8400 1350
 F 0 "TP1" H 8458 1470 50  0000 L CNN
-F 1 "TestPoint" H 8458 1379 50  0000 L CNN
+F 1 "VGnd" H 8458 1379 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 8600 1350 50  0001 C CNN
 F 3 "~" H 8600 1350 50  0001 C CNN
 	1    8400 1350
@@ -2861,4 +2855,118 @@ Wire Wire Line
 	7000 3200 7000 3100
 Wire Wire Line
 	9500 3300 10000 3300
+$Comp
+L Jumper:Jumper_2_Open JP1
+U 1 1 5EE86F91
+P 10000 550
+F 0 "JP1" H 10000 785 50  0000 C CNN
+F 1 "Jumper_2_Open" H 10000 694 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 10000 550 50  0001 C CNN
+F 3 "~" H 10000 550 50  0001 C CNN
+	1    10000 550 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP2
+U 1 1 5EE87089
+P 10000 2250
+F 0 "JP2" H 10000 2485 50  0000 C CNN
+F 1 "Jumper_2_Open" H 10000 2394 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 10000 2250 50  0001 C CNN
+F 3 "~" H 10000 2250 50  0001 C CNN
+	1    10000 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 2250 9600 2250
+Wire Wire Line
+	9600 2250 9600 1900
+Wire Wire Line
+	10200 2250 10500 2250
+Wire Wire Line
+	10500 2250 10500 1900
+Wire Wire Line
+	9800 550  9600 550 
+Wire Wire Line
+	9600 550  9600 800 
+Wire Wire Line
+	10200 550  10500 550 
+Wire Wire Line
+	10500 550  10500 800 
+$Comp
+L power:GNDPWR #PWR0101
+U 1 1 5EFB27D4
+P 1300 1400
+F 0 "#PWR0101" H 1300 1200 50  0001 C CNN
+F 1 "GNDPWR" H 1304 1246 50  0000 C CNN
+F 2 "" H 1300 1350 50  0001 C CNN
+F 3 "" H 1300 1350 50  0001 C CNN
+	1    1300 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5EFB29F6
+P 1500 1400
+F 0 "#FLG0103" H 1500 1475 50  0001 C CNN
+F 1 "PWR_FLAG" H 1500 1573 50  0000 C CNN
+F 2 "" H 1500 1400 50  0001 C CNN
+F 3 "~" H 1500 1400 50  0001 C CNN
+	1    1500 1400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5050 4650 5200 4650
+Wire Wire Line
+	1800 1400 2250 1400
+Wire Wire Line
+	5200 4650 5200 5250
+Wire Wire Line
+	5200 5250 4200 5250
+Wire Wire Line
+	4200 5250 4200 4650
+Connection ~ 5200 4650
+Wire Wire Line
+	5200 4650 5350 4650
+Connection ~ 4200 4650
+Wire Wire Line
+	4200 4650 4350 4650
+Wire Wire Line
+	5250 6050 5250 6650
+Wire Wire Line
+	5250 6650 4250 6650
+Wire Wire Line
+	4250 6650 4250 6050
+Wire Wire Line
+	4050 6050 4250 6050
+Connection ~ 5250 6050
+Wire Wire Line
+	5250 6050 5400 6050
+Connection ~ 4250 6050
+Wire Wire Line
+	4250 6050 4400 6050
+Wire Wire Line
+	1700 4650 1700 5250
+Wire Wire Line
+	1700 5250 2700 5250
+Wire Wire Line
+	2700 5250 2700 4650
+Connection ~ 1700 4650
+Wire Wire Line
+	1700 4650 1850 4650
+Connection ~ 2700 4650
+Wire Wire Line
+	2700 4650 2850 4650
+Wire Wire Line
+	1750 6050 1750 6650
+Wire Wire Line
+	1750 6650 2750 6650
+Wire Wire Line
+	2750 6650 2750 6050
+Connection ~ 1750 6050
+Wire Wire Line
+	1750 6050 1900 6050
+Connection ~ 2750 6050
+Wire Wire Line
+	2750 6050 2900 6050
 $EndSCHEMATC

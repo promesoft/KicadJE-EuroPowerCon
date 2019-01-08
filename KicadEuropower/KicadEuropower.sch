@@ -2732,9 +2732,9 @@ Wire Wire Line
 Connection ~ 7700 2800
 Wire Wire Line
 	7700 2800 8350 2800
-Text GLabel 6900 3800 0    50   Input ~ 0
+Text GLabel 6550 3800 0    50   Input ~ 0
 Vin-15
-Text GLabel 6900 2800 0    50   Input ~ 0
+Text GLabel 6550 2800 0    50   Input ~ 0
 Vin+15
 Text GLabel 10000 3300 2    50   Input ~ 0
 VinGND
@@ -2969,4 +2969,30 @@ Wire Wire Line
 Connection ~ 2750 6050
 Wire Wire Line
 	2750 6050 2900 6050
+Wire Wire Line
+	6550 2800 6600 2800
+$Comp
+L Device:R R12
+U 1 1 5F1896F0
+P 6750 2800
+F 0 "R12" V 6543 2800 50  0000 C CNN
+F 1 "0R" V 6634 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6680 2800 50  0001 C CNN
+F 3 "~" H 6750 2800 50  0001 C CNN
+	1    6750 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5F18996D
+P 6750 3800
+F 0 "R13" V 6543 3800 50  0000 C CNN
+F 1 "0R" V 6634 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6680 3800 50  0001 C CNN
+F 3 "~" H 6750 3800 50  0001 C CNN
+	1    6750 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6600 3800 6550 3800
 $EndSCHEMATC
