@@ -313,6 +313,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${GIT_3D}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connectors_IDC:IDC-Header_2x08_Pitch2.54mm_Straight (layer F.Cu) (tedit 59DE0341) (tstamp 5C346BF3)
@@ -391,6 +396,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${GIT_3D}/Connector_IDC.3dshapes/IDC-Header_2x08_P2.54mm_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connectors_IDC:IDC-Header_2x05_Pitch2.54mm_Straight (layer F.Cu) (tedit 59DE0611) (tstamp 5C343D53)
@@ -453,6 +463,11 @@
     (pad 1 thru_hole rect (at 0 0) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 3 -12V))
     (model ${KISYS3DMOD}/Connectors_IDC.3dshapes/IDC-Header_2x05_Pitch2.54mm_Straight.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${GIT_3D}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -535,6 +550,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${GIT_3D}/Connector_IDC.3dshapes/IDC-Header_2x08_P2.54mm_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connectors_IDC:IDC-Header_2x05_Pitch2.54mm_Straight (layer F.Cu) (tedit 59DE0611) (tstamp 5C346EF3)
@@ -597,6 +617,11 @@
     (pad 10 thru_hole oval (at 2.54 10.16) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 9 "Net-(P5-Pad10)"))
     (model ${KISYS3DMOD}/Connectors_IDC.3dshapes/IDC-Header_2x05_Pitch2.54mm_Straight.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${GIT_3D}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -679,6 +704,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${GIT_3D}/Connector_IDC.3dshapes/IDC-Header_2x08_P2.54mm_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connectors_IDC:IDC-Header_2x05_Pitch2.54mm_Straight (layer F.Cu) (tedit 59DE0611) (tstamp 5C343DFF)
@@ -741,6 +771,11 @@
     (pad 1 thru_hole rect (at 0 0) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 3 -12V))
     (model ${KISYS3DMOD}/Connectors_IDC.3dshapes/IDC-Header_2x05_Pitch2.54mm_Straight.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${GIT_3D}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -823,6 +858,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${GIT_3D}/Connector_IDC.3dshapes/IDC-Header_2x08_P2.54mm_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connectors_IDC:IDC-Header_2x05_Pitch2.54mm_Straight (layer F.Cu) (tedit 59DE0611) (tstamp 5C343E55)
@@ -885,6 +925,11 @@
     (pad 1 thru_hole rect (at 0 0) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 3 -12V))
     (model ${KISYS3DMOD}/Connectors_IDC.3dshapes/IDC-Header_2x05_Pitch2.54mm_Straight.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${GIT_3D}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -955,6 +1000,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${GIT_3D}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connectors_IDC:IDC-Header_2x05_Pitch2.54mm_Straight (layer F.Cu) (tedit 59DE0611) (tstamp 5C346E7E)
@@ -1017,6 +1067,11 @@
     (pad 1 thru_hole rect (at 0 0) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 3 -12V))
     (model ${KISYS3DMOD}/Connectors_IDC.3dshapes/IDC-Header_2x05_Pitch2.54mm_Straight.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${GIT_3D}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1087,6 +1142,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${GIT_3D}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connectors_IDC:IDC-Header_2x05_Pitch2.54mm_Straight (layer F.Cu) (tedit 59DE0611) (tstamp 5C343EF5)
@@ -1153,6 +1213,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${GIT_3D}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connectors_IDC:IDC-Header_2x05_Pitch2.54mm_Straight (layer F.Cu) (tedit 59DE0611) (tstamp 5C346C74)
@@ -1215,6 +1280,11 @@
     (pad 1 thru_hole rect (at 0 0) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 3 -12V))
     (model ${KISYS3DMOD}/Connectors_IDC.3dshapes/IDC-Header_2x05_Pitch2.54mm_Straight.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${GIT_3D}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4267,6 +4337,11 @@
       (net 17 "Net-(C9-Pad1)"))
     (pad 4 thru_hole circle (at 5.4991 -2.99974 90) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.Mask)
       (net 12 "Net-(C2-Pad1)"))
+    (model ${GIT_3D}/Inductor_THT.3dshapes/L_CommonMode_Toroid_Vertical_L19.3mm_W10.8mm_Px6.35mm_Py15.24mm_Bourns_8100.wrl
+      (offset (xyz -5.5 3 0))
+      (scale (xyz 0.7 0.9 0.8))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Choke_Toroid_ThroughHole:Transformer_Toroid_horizontal_Diameter9mm_Amidon-T30 (layer F.Cu) (tedit 0) (tstamp 5C520A9E)
@@ -4440,6 +4515,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${GIT_3D}/TerminalBlock_Altech.3dshapes/Altech_AK300_1x02_P5.00mm_45-Degree.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm (layer F.Cu) (tedit 59FF0306) (tstamp 5C520B6C)
@@ -4561,6 +4641,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${GIT_3D}/TerminalBlock_Altech.3dshapes/Altech_AK300_1x02_P5.00mm_45-Degree.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm (layer F.Cu) (tedit 59FF0306) (tstamp 5C520BD3)
@@ -4678,6 +4763,11 @@
     (pad 2 thru_hole oval (at 5 0 90) (size 1.98 3.96) (drill 1.32) (layers *.Cu *.Mask)
       (net 8 +5V))
     (model ${KISYS3DMOD}/Terminal_Blocks.3dshapes/TerminalBlock_Altech_AK300-2_P5.00mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${GIT_3D}/TerminalBlock_Altech.3dshapes/Altech_AK300_1x02_P5.00mm_45-Degree.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4832,6 +4922,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${GIT_3D}/TerminalBlock_Altech.3dshapes/Altech_AK300_1x03_P5.00mm_45-Degree.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm (layer F.Cu) (tedit 59FF0306) (tstamp 5C520CD9)
@@ -4982,6 +5077,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${GIT_3D}/TerminalBlock_Altech.3dshapes/Altech_AK300_1x03_P5.00mm_45-Degree.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm (layer F.Cu) (tedit 59FF0306) (tstamp 5C520D5C)
@@ -5128,6 +5228,11 @@
     (pad 3 thru_hole oval (at 10 0 90) (size 1.98 3.96) (drill 1.32) (layers *.Cu *.Mask)
       (net 5 +12V))
     (model ${KISYS3DMOD}/Terminal_Blocks.3dshapes/TerminalBlock_Altech_AK300-3_P5.00mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${GIT_3D}/TerminalBlock_Altech.3dshapes/Altech_AK300_1x03_P5.00mm_45-Degree.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
