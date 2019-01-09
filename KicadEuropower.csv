@@ -25,4 +25,8 @@
 24;"R8,R9,R10";"R_0805_2012Metric_Pad1.15x1.40mm_HandSolder";3;"330r";;;
 25;"U4";"DIP-8_W7.62mm_Socket";1;"TL071";;;
 26;"C45,C46";"C_0805_2012Metric_Pad1.15x1.40mm_HandSolder";2;"220n";;;
-27;"TP1,TP2,TP3,TP4";"PinSocket_1x01_P2.54mm_Vertical";4;"TestPoint";;;
+27;"TP1,TP3";"PinSocket_1x01_P2.54mm_Vertical";2;"VGnd";;;
+28;"TP2";"PinSocket_1x01_P2.54mm_Vertical";1;"Vin+15";;;
+29;"TP4";"PinSocket_1x01_P2.54mm_Vertical";1;"Vin-15";;;
+30;"JP1,JP2";"PinSocket_1x02_P2.54mm_Vertical";2;"Jumper_2_Open";;;
+31;"R12,R13";"R_0805_2012Metric_Pad1.15x1.40mm_HandSolder";2;"0R";;;
