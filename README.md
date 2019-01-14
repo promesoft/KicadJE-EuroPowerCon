@@ -20,3 +20,6 @@ Optional cut in 2 where the top part can be used as a normal regulator board.
 Intended function
 
 ## Schematic
+
+## 3D
+![](KicadEuropower3D-5Top.png)
