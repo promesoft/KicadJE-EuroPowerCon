@@ -16,13 +16,16 @@ Optional cut in 2 where the top part can be used as a normal regulator board.
  - Max 1,5A will require additional cooling of the regulators and larger diodes.
  - Optional disable regulation
  - Optional synthetic GND if only single ended supply is available.
+ 
 +5V Supply
  - Requires 7-25V input either as linear transformer with/without bridge rectifier, or switched mode PSU.
  - Optional input from +15V thru supply 
  - Max 1,5A will require additional cooling of the regulators and larger diodes.
  - Optional disable regulation
+
 Thru
  - Both 7V and +-15 input sections can be sent thru to a second module for daisy chaining of modules.
+
 Reg out
  - Regulated outputs can be send out to other power distribution modules or directly to Synth modules that does not require the Doepfer 10pin or 16pin power input.
  
