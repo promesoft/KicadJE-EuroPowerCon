@@ -40,4 +40,5 @@ Intended function
 ## Schematic
 
 ## 3D
-![](KicadEuropower3D-5Top.png)
+![](KicadEuropower3D-RevB-Top1.png)
+![](KicadEuropower3D-RevB-Bottom1.png)
