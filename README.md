@@ -38,7 +38,7 @@ Reg out
 Intended function
 
 ## Schematic
-
+![](KicadEuropowerRevB.pdf)
 ## 3D
 ![](KicadEuropower3D-RevB-Top1.png)
 ![](KicadEuropower3D-RevB-Bottom1.png)
