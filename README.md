@@ -1,7 +1,7 @@
 # KicadEuroPowerCon
 Powerplane for Eurorack Doepfer connectors
 
-## Status - Rev B board layout and Gerber
+## Status - Rev B board ordered at JLCPCB
 ### Errata
 
 ### Issues and Notes
