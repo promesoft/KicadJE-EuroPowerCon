@@ -7,7 +7,9 @@ Powerplane for Eurorack Doepfer connectors
 | create material  | sch/pcb/gerber produced and uploaded  |
 | production  | ordered/produced/delivered  |
 | Initial Inspection | Visual-OK Mounting-OK |
-| Initial Technical Test | +-20V in +9V in  +/-12v out +5V out OK |
+| Initial Technical Test | +-20V in +9V in  
+| | +/-12v out +5V out 
+| | LED's working|
 | Initial Product Test | Powercon burnin ok |
 | Long Term Product Test | ongoing |
 
