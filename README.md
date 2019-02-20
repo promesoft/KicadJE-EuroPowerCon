@@ -3,17 +3,20 @@ Powerplane for Eurorack Doepfer connectors
 
 ## Status - Rev B board in prototest - no issues
 ### Initial 
-| Stage  | Status |
+| Stage  | Detail | Status |
 | ------------- | ------------- |
-| create material  | sch/pcb/gerber produced and uploaded  |
-| production  | ordered/produced/delivered  |
+| create material  | sch/pcb | produced Rev B  |
+| | gerber | produced and uploaded RevB |
+| production  | ordered  | OK |
+|  | produced | OK
+|  | delivered | OK
 ### Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
 | Initial Inspection | Visual - Component Mounting | OK |
 | Initial Technical Test | +-20V in +9V in | OK |
 | | +/-12v out +5V out | OK |
-| | LED's working| OK |
+| | LED's | OK |
 | Initial Product Test | Powercon burn in with 10pin VCF | OK |
 | Initial Product Test | Powercon 16pin | |
 | Initial Product Test | Virtual GND | |
