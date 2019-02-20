@@ -1,11 +1,12 @@
 # KicadEuroPowerCon
 Powerplane for Eurorack Doepfer connectors
 
-## Status - Rev B board ordered at JLCPCB
+## Status - Rev B board in prototest - no issues
 ### Errata
 
 ### Issues and Notes
-
+ * fuse holder for +5V should be changed
+ 
 ## Physical Construction
 100x100mm
 Optional cut in 2 where the top part can be used as a normal regulator board.
