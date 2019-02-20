@@ -4,12 +4,12 @@ Powerplane for Eurorack Doepfer connectors
 ## Status - Rev B board in prototest - no issues
 ### Initial 
 | Stage  | Detail | Status |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- |
 | create material  | sch/pcb | produced Rev B  |
 | | gerber | produced and uploaded RevB |
 | production  | ordered  | OK |
-|  | produced | OK
-|  | delivered | OK
+|  | produced | OK |
+|  | delivered | OK |
 ### Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
