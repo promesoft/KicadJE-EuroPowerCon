@@ -15,11 +15,17 @@ Powerplane for Eurorack Doepfer connectors
 | | +/-12v out +5V out 
 | | LED's working|
 | Initial Product Test | Powercon burn in ok with 10pin VCF |
+| Initial Product Test | Powercon 16pin | |
+| Initial Product Test | Virtual GND | |
 ### Secondary validation
 | Test  | Detail | Status |
 | ------------- | ------------- |------------- |
 | Product Test | Powercon burn in 10pin | VCF ok|
-|  | Powercon 16pin |Not tested |
+| Product Test | Powercon 16pin | |
+| Quality | Linear Regulator Noise | |
+| Quality | Dual 12v Switched Mode PSU Noise | |
+| Quality | Single 30v Switched Mode PSU Linear Regulator Noise | |
+| Quality | Single 24v Switched Mode PSU Noise | |
 | Long Term Product Test | | ongoing |
 
 ### Errata
