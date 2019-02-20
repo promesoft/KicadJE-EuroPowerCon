@@ -10,7 +10,8 @@ Powerplane for Eurorack Doepfer connectors
 | Initial Technical Test | +-20V in +9V in  
 | | +/-12v out +5V out 
 | | LED's working|
-| Initial Product Test | Powercon burnin ok |
+| Initial Product Test | Powercon burn in ok with 10pin VCF |
+|  | Powercon 16pin - Not tested|
 | Long Term Product Test | ongoing |
 
 ### Errata
