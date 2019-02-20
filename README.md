@@ -6,6 +6,7 @@ Powerplane for Eurorack Doepfer connectors
 
 ### Issues and Notes
  * fuse holder for +5V should be changed
+ * virtual GND should be powered behind fuse
  
 ## Physical Construction
 100x100mm
