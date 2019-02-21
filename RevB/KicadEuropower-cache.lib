@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Amplifier_Operational_TL071
+# Amplifier_Operational:TL071
 #
-DEF Amplifier_Operational_TL071 U 0 5 Y Y 1 F N
+DEF Amplifier_Operational:TL071 U 0 5 Y Y 1 F N
 F0 "U" 0 250 50 H V L CNN
-F1 "Amplifier_Operational_TL071" 0 150 50 H V L CNN
+F1 "Amplifier_Operational:TL071" 0 150 50 H V L CNN
 F2 "" 50 50 50 H I C CNN
 F3 "" 150 150 50 H I C CNN
 ALIAS AD8610 LF155 LF156 LF256 LF257 LF355 LF356 LF357 TL081 TL061 TL071
@@ -27,11 +27,11 @@ X NC 8 0 100 100 D 50 50 1 1 N N
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_01x02_Male
+# Connector:Conn_01x02_Male
 #
-DEF Connector_Conn_01x02_Male J 0 40 Y N 1 F N
+DEF Connector:Conn_01x02_Male J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Conn_01x02_Male" 0 -200 50 H V C CNN
+F1 "Connector:Conn_01x02_Male" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -47,11 +47,11 @@ X Pin_2 2 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_01x03_Male
+# Connector:Conn_01x03_Male
 #
-DEF Connector_Conn_01x03_Male J 0 40 Y N 1 F N
+DEF Connector:Conn_01x03_Male J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Conn_01x03_Male" 0 -200 50 H V C CNN
+F1 "Connector:Conn_01x03_Male" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -70,11 +70,11 @@ X Pin_3 3 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_TestPoint
+# Connector:TestPoint
 #
-DEF Connector_TestPoint TP 0 30 N N 1 F N
+DEF Connector:TestPoint TP 0 30 N N 1 F N
 F0 "TP" 0 270 50 H V C CNN
-F1 "Connector_TestPoint" 0 200 50 H V C CNN
+F1 "Connector:TestPoint" 0 200 50 H V C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 $FPLIST
@@ -87,19 +87,22 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_CP
+# Device:CP
 #
-DEF Device_CP C 0 10 N Y 1 F N
+DEF Device:CP C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device_CP" 25 -100 50 H V L CNN
+F1 "Device:CP" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  CP_*
 $ENDFPLIST
 DRAW
-S -90 20 90 40 0 1 0 N
+S -90 20 -90 40 0 1 0 N
+S -90 20 90 20 0 1 0 N
 S 90 -20 -90 -40 0 1 0 F
+S 90 40 -90 40 0 1 0 N
+S 90 40 90 20 0 1 0 N
 P 2 0 1 0 -70 90 -30 90 N
 P 2 0 1 0 -50 110 -50 70 N
 X ~ 1 0 150 110 D 50 50 1 1 P
@@ -107,11 +110,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_CP_Small
+# Device:CP_Small
 #
-DEF Device_CP_Small C 0 10 N N 1 F N
+DEF Device:CP_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "Device_CP_Small" 10 -80 50 H V L CNN
+F1 "Device:CP_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -127,11 +130,11 @@ X ~ 2 0 -100 73 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_C_Small
+# Device:C_Small
 #
-DEF Device_C_Small C 0 10 N N 1 F N
+DEF Device:C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "Device_C_Small" 10 -80 50 H V L CNN
+F1 "Device:C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -145,13 +148,13 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_EMI_Filter_CommonMode
+# Device:EMI_Filter_CommonMode
 #
-DEF Device_EMI_Filter_CommonMode FL 0 10 Y N 1 F N
+DEF Device:EMI_Filter_CommonMode FL 0 10 Y N 1 F N
 F0 "FL" 0 175 50 H V C CNN
-F1 "Device_EMI_Filter_CommonMode" 0 -175 50 H V C CNN
-F2 "" 0 40 50 H I C CNN
-F3 "" 0 40 50 H I C CNN
+F1 "Device:EMI_Filter_CommonMode" 0 -175 50 H V C CNN
+F2 "" 0 40 50 V V C CNN
+F3 "" 0 40 50 V V C CNN
 ALIAS EMI_Filter_CommonMode
 $FPLIST
  L_*
@@ -183,11 +186,11 @@ X 4 4 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_Fuse_Small
+# Device:Fuse_Small
 #
-DEF Device_Fuse_Small F 0 10 N N 1 F N
+DEF Device:Fuse_Small F 0 10 N N 1 F N
 F0 "F" 0 -60 50 H V C CNN
-F1 "Device_Fuse_Small" 0 60 50 H V C CNN
+F1 "Device:Fuse_Small" 0 60 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -201,11 +204,11 @@ X ~ 2 100 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_LED
+# Device:LED
 #
-DEF Device_LED D 0 40 N N 1 F N
+DEF Device:LED D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device_LED" 0 -100 50 H V C CNN
+F1 "Device:LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -224,11 +227,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_R
+# Device:R
 #
-DEF Device_R R 0 0 N Y 1 F N
+DEF Device:R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device_R" 0 0 50 V V C CNN
+F1 "Device:R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -241,11 +244,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_Varistor
+# Device:Varistor
 #
-DEF Device_Varistor RV 0 0 N Y 1 F N
+DEF Device:Varistor RV 0 0 N Y 1 F N
 F0 "RV" 125 0 50 V V C CNN
-F1 "Device_Varistor" -125 0 50 V V C CNN
+F1 "Device:Varistor" -125 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -261,11 +264,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Diode_1N4001
+# Diode:1N4001
 #
-DEF Diode_1N4001 D 0 40 N N 1 F N
+DEF Diode:1N4001 D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Diode_1N4001" 0 -100 50 H V C CNN
+F1 "Diode:1N4001" 0 -100 50 H V C CNN
 F2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" 0 -175 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS 1N4002 1N4003 1N4004 1N4005 1N4006 1N4007 BA157 BA158 BA159
@@ -281,11 +284,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Eurorack_Doepfer_Power_10pin
+# Eurorack:Doepfer_Power_10pin
 #
-DEF Eurorack_Doepfer_Power_10pin P 0 40 Y Y 1 F N
+DEF Eurorack:Doepfer_Power_10pin P 0 40 Y Y 1 F N
 F0 "P" 0 -100 50 H V C CNN
-F1 "Eurorack_Doepfer_Power_10pin" 0 100 50 H V C CNN
+F1 "Eurorack:Doepfer_Power_10pin" 0 100 50 H V C CNN
 F2 "Connectors_IDC:IDC-Header_2x05_Pitch2.54mm_Straight" 0 0 50 H I C CNN
 F3 "DOCUMENTATION" 0 0 50 H I C CNN
 DRAW
@@ -303,11 +306,11 @@ X +12 9 -350 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Eurorack_Doepfer_Power_16pin
+# Eurorack:Doepfer_Power_16pin
 #
-DEF Eurorack_Doepfer_Power_16pin P 0 40 Y Y 1 F N
+DEF Eurorack:Doepfer_Power_16pin P 0 40 Y Y 1 F N
 F0 "P" 0 -100 50 H V C CNN
-F1 "Eurorack_Doepfer_Power_16pin" 0 100 50 H V C CNN
+F1 "Eurorack:Doepfer_Power_16pin" 0 100 50 H V C CNN
 F2 "Connectors_IDC:IDC-Header_2x08_Pitch2.54mm_Straight" 0 0 50 H I C CNN
 F3 "DOCUMENTATION" 0 0 50 H I C CNN
 DRAW
@@ -331,11 +334,30 @@ X +12 9 -350 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Regulator_Linear_LM7805_TO220
+# Jumper:Jumper_2_Open
 #
-DEF Regulator_Linear_LM7805_TO220 U 0 10 Y Y 1 F N
+DEF Jumper:Jumper_2_Open JP 0 0 Y N 1 F N
+F0 "JP" 0 110 50 H V C CNN
+F1 "Jumper:Jumper_2_Open" 0 -90 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jumper*
+$ENDFPLIST
+DRAW
+A 0 -30 100 1269 531 0 1 0 N -60 50 60 50
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+X A 1 -200 0 100 R 50 50 1 1 P
+X B 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Regulator_Linear:LM7805_TO220
+#
+DEF Regulator_Linear:LM7805_TO220 U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "Regulator_Linear_LM7805_TO220" 0 125 50 H V L CNN
+F1 "Regulator_Linear:LM7805_TO220" 0 125 50 H V L CNN
 F2 "Package_TO_SOT_THT:TO-220-3_Vertical" 0 225 50 H I C CIN
 F3 "" 0 -50 50 H I C CNN
 ALIAS LM7806_TO220 LM7808_TO220 LM7809_TO220 LM7810_TO220 LM7812_TO220 LM7815_TO220 LM7818_TO220 LM7824_TO220 LM78M05_TO220 SPX2920U-3.3_TO220 SPX2920U-5.0_TO220 LF15_TO220 LF18_TO220 LF25_TO220 LF33_TO220 LF50_TO220 LF60_TO220 LF80_TO220 LF85_TO220 LF120_TO220 LF47_TO220 LF90_TO220 LM341T-05_TO220 LM341T-12_TO220 LM341T-15_TO220 LM2937xT
@@ -350,11 +372,11 @@ X VO 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Regulator_Linear_LM7812_TO220
+# Regulator_Linear:LM7812_TO220
 #
-DEF Regulator_Linear_LM7812_TO220 U 0 10 Y Y 1 F N
+DEF Regulator_Linear:LM7812_TO220 U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "Regulator_Linear_LM7812_TO220" 0 125 50 H V L CNN
+F1 "Regulator_Linear:LM7812_TO220" 0 125 50 H V L CNN
 F2 "Package_TO_SOT_THT:TO-220-3_Vertical" 0 225 50 H I C CIN
 F3 "" 0 -50 50 H I C CNN
 $FPLIST
@@ -368,11 +390,11 @@ X VO 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Regulator_Linear_LM78M05_TO252
+# Regulator_Linear:LM78M05_TO252
 #
-DEF Regulator_Linear_LM78M05_TO252 U 0 10 Y Y 1 F N
+DEF Regulator_Linear:LM78M05_TO252 U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "Regulator_Linear_LM78M05_TO252" 0 125 50 H V L CNN
+F1 "Regulator_Linear:LM78M05_TO252" 0 125 50 H V L CNN
 F2 "Package_TO_SOT_SMD:TO-252-2" 0 225 50 H I C CIN
 F3 "" 0 -50 50 H I C CNN
 ALIAS MC78M05_TO252 KA78M05_TO252 LF15_TO252 LF18_TO252 LF25_TO252 LF33_TO252 LF50_TO252 LF60_TO252 LF80_TO252 LF85_TO252 LF120_TO252 LP2950-3.0_TO252 LP2950-3.3_TO252 LP2950-5.0_TO252 LF47_TO252 LF90_TO252
@@ -387,11 +409,11 @@ X VO 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Regulator_Linear_LM7912_TO220
+# Regulator_Linear:LM7912_TO220
 #
-DEF Regulator_Linear_LM7912_TO220 U 0 10 Y Y 1 F N
+DEF Regulator_Linear:LM7912_TO220 U 0 10 Y Y 1 F N
 F0 "U" -150 -125 50 H V C CNN
-F1 "Regulator_Linear_LM7912_TO220" 0 -125 50 H V L CNN
+F1 "Regulator_Linear:LM7912_TO220" 0 -125 50 H V L CNN
 F2 "Package_TO_SOT_THT:TO-220-3_Vertical" 0 -200 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 ALIAS LM79M05_TO220 LM79M12_TO220 LM79M15_TO220 LM7906_TO220 LM7908_TO220 LM7909_TO220 LM7910_TO220 LM7915_TO220 LM7912_TO220 LM7918_TO220 LM7924_TO220 MC79M05_TO220 MC79M08_TO220 MC79M12_TO220 MC79M15_TO220
@@ -406,11 +428,11 @@ X VO 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Regulator_Linear_MC79M12_TO252
+# Regulator_Linear:MC79M12_TO252
 #
-DEF Regulator_Linear_MC79M12_TO252 U 0 10 Y Y 1 F N
+DEF Regulator_Linear:MC79M12_TO252 U 0 10 Y Y 1 F N
 F0 "U" -150 -125 50 H V C CNN
-F1 "Regulator_Linear_MC79M12_TO252" 0 -125 50 H V L CNN
+F1 "Regulator_Linear:MC79M12_TO252" 0 -125 50 H V L CNN
 F2 "Package_TO_SOT_SMD:TO-252-2" 0 -200 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 ALIAS MC79M08_TO252 MC79M12_TO252 MC79M15_TO252
@@ -425,11 +447,11 @@ X VO 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Transistor_BJT_BD139
+# Transistor_BJT:BD139
 #
-DEF Transistor_BJT_BD139 Q 0 0 Y N 1 F N
+DEF Transistor_BJT:BD139 Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "Transistor_BJT_BD139" 200 0 50 H V L CNN
+F1 "Transistor_BJT:BD139" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_THT:TO-126-3_Vertical" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 ALIAS BD135 BD137 BD233 BD235 BD237
@@ -449,11 +471,11 @@ X B 3 -200 0 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Transistor_BJT_BD140
+# Transistor_BJT:BD140
 #
-DEF Transistor_BJT_BD140 Q 0 0 Y N 1 F N
+DEF Transistor_BJT:BD140 Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "Transistor_BJT_BD140" 200 0 50 H V L CNN
+F1 "Transistor_BJT:BD140" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_THT:TO-126-3_Vertical" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 ALIAS BD136 BD138 BD234 BD236 BD238
@@ -473,11 +495,11 @@ X B 3 -200 0 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# power_+12V
+# power:+12V
 #
-DEF power_+12V #PWR 0 0 Y Y 1 F P
+DEF power:+12V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+12V" 0 140 50 H V C CNN
+F1 "power:+12V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -488,11 +510,11 @@ X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_+15V
+# power:+15V
 #
-DEF power_+15V #PWR 0 0 Y Y 1 F P
+DEF power:+15V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+15V" 0 140 50 H V C CNN
+F1 "power:+15V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -503,11 +525,11 @@ X +15V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_+5V
+# power:+5V
 #
-DEF power_+5V #PWR 0 0 Y Y 1 F P
+DEF power:+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
+F1 "power:+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -518,11 +540,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_+7.5V
+# power:+7.5V
 #
-DEF power_+7.5V #PWR 0 0 Y Y 1 F P
+DEF power:+7.5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+7.5V" 0 140 50 H V C CNN
+F1 "power:+7.5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -533,11 +555,11 @@ X +7.5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_-12V
+# power:-12V
 #
-DEF power_-12V #PWR 0 0 Y Y 1 F P
+DEF power:-12V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 100 50 H I C CNN
-F1 "power_-12V" 0 150 50 H V C CNN
+F1 "power:-12V" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -546,11 +568,11 @@ X -12V 1 0 0 0 U 50 50 0 0 W N
 ENDDRAW
 ENDDEF
 #
-# power_-15V
+# power:-15V
 #
-DEF power_-15V #PWR 0 0 Y Y 1 F P
+DEF power:-15V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 100 50 H I C CNN
-F1 "power_-15V" 0 150 50 H V C CNN
+F1 "power:-15V" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -559,11 +581,11 @@ X -15V 1 0 0 0 U 50 50 0 0 W N
 ENDDRAW
 ENDDEF
 #
-# power_GND
+# power:GND
 #
-DEF power_GND #PWR 0 0 Y Y 1 F P
+DEF power:GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
+F1 "power:GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -572,11 +594,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_GNDPWR
+# power:GNDPWR
 #
-DEF power_GNDPWR #PWR 0 0 Y Y 1 F P
+DEF power:GNDPWR #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -200 50 H I C CNN
-F1 "power_GNDPWR" 0 -130 50 H V C CNN
+F1 "power:GNDPWR" 0 -130 50 H V C CNN
 F2 "" 0 -50 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 DRAW
@@ -591,11 +613,11 @@ X GNDPWR 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_PWR_FLAG
+# power:PWR_FLAG
 #
-DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+DEF power:PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F1 "power:PWR_FLAG" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
