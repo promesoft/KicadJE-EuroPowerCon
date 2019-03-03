@@ -18,8 +18,8 @@ Powerplane for Eurorack Doepfer connectors
 | | +/-12v out +5V out | OK |
 | | LED's | OK |
 | Initial Product Test | Powercon burn in with 10pin VCF | OK |
-| Initial Product Test | Powercon 16pin | |
-| Initial Product Test | Virtual GND | |
+| Initial Product Test | Powercon 16pin |  OK |
+| Initial Product Test | Virtual GND | FAIL - see ERRATA |
 ### Secondary validation
 | Test  | Detail | Status |
 | ------------- | ------------- |------------- |
