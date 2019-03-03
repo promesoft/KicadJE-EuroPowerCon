@@ -1,7 +1,7 @@
 # KicadEuroPowerCon
 Powerplane for Eurorack Doepfer connectors
 
-## Status - Rev B board in prototest - no issues
+## Status - Rev B board in prototest - Virtual GND fail
 ### Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
@@ -18,8 +18,8 @@ Powerplane for Eurorack Doepfer connectors
 | | +/-12v out +5V out | OK |
 | | LED's | OK |
 | Initial Product Test | Powercon burn in with 10pin VCF | OK |
-| Initial Product Test | Powercon 16pin | |
-| Initial Product Test | Virtual GND | |
+| Initial Product Test | Powercon 16pin |  OK |
+| Initial Product Test | Virtual GND | FAIL - see ERRATA |
 ### Secondary validation
 | Test  | Detail | Status |
 | ------------- | ------------- |------------- |
@@ -32,7 +32,9 @@ Powerplane for Eurorack Doepfer connectors
 | Long Term Product Test | | ongoing |
 
 ### Errata
-
+ * Q2 BD140 err in schematic - C and E flipped by mistake
+ * Q2 Pin 1 and R11 connected to GND by mistake.
+ 
 ### Issues and Notes
  * fuse holder for +5V should be changed
  * virtual GND should be powered behind fuse
