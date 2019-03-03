@@ -33,6 +33,7 @@ Powerplane for Eurorack Doepfer connectors
 
 ### Errata
  * Q2 BD140 err in schematic - C and E flipped by mistake
+ * Q2 Pin 1 and R11 connected to GND by mistake.
  
 ### Issues and Notes
  * fuse holder for +5V should be changed
