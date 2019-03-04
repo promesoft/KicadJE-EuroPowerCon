@@ -33,9 +33,9 @@ Powerplane for Eurorack Doepfer connectors
 | Quality | Single 24v Switched Mode PSU Noise | |
 | Long Term Product Test | | ongoing |
 
-![](2019-03-04 19_35_54-Spectrum Analyzer-VirtualGND.png)
+![](Spectrum Analyzer-Vin pos.png)
 ![](KicadEuropower3D-RevB-Top1.png)
-![](2019-03-04 19_37_24-Spectrum Analyzer-Vout+.png)
+![](Spectrum Analyzer-Vout pos.png)
  
 ### Errata
  * Q2 BD140 err in schematic - C and E flipped by mistake
