@@ -30,14 +30,11 @@ Powerplane for Eurorack Doepfer connectors
 | Quality | Dual 12v Switched Mode PSU Noise | |
 | Quality | Single 30v Switched Mode PSU Linear Regulator Noise | |
 | Quality | Single 24v Switched Mode PSU Noise | |
-| ![](Spectrum-Analyzer-Vin-pos.png)| | 
-| ![](Spectrum-Analyzer-VirtualGND.png)| |  
-| ![](Spectrum-Analyzer-Vout-pos.png)| | 
+| | ![](Spectrum-Analyzer-Vin-pos.png)|Input noise | 
+| | ![](Spectrum-Analyzer-VirtualGND.png)|GND noise |  
+| | ![](Spectrum-Analyzer-Vout-pos.png)|Output Noise (no 7812/7912 reg) | 
 | Long Term Product Test | | ongoing |
 
-![](Spectrum-Analyzer-Vin-pos.png)
-![](Spectrum-Analyzer-VirtualGND.png)
-![](Spectrum-Analyzer-Vout-pos.png)
  
 ### Errata
  * Q2 BD140 err in schematic - C and E flipped by mistake
