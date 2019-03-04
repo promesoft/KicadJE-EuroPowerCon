@@ -28,6 +28,10 @@ Powerplane for Eurorack Doepfer connectors
 | Product Test | Powercon 16pin | VCO ok|
 | Quality | Linear Regulator Noise | |
 | Quality | Dual 12v Switched Mode PSU Noise | |
+| Quality | Single 30v Switched Mode PSU No Regulator Noise | |
+| ![](2019-03-04 19_35_54-Spectrum Analyzer-VirtualGND.png) | |
+| ![](2019-03-04 19_35_54-Spectrum Analyzer-VirtualGND.png) | |
+| ![](2019-03-04 19_35_54-Spectrum Analyzer-VirtualGND.png) | |
 | Quality | Single 30v Switched Mode PSU Linear Regulator Noise | |
 | Quality | Single 24v Switched Mode PSU Noise | |
 | Long Term Product Test | | ongoing |
