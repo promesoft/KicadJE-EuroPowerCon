@@ -32,7 +32,7 @@ Powerplane for Eurorack Doepfer connectors
 | Quality | Single 24v Switched Mode PSU Noise | |
 | | ![](Spectrum-Analyzer-Vin-pos.png)|Input noise | 
 | | ![](Spectrum-Analyzer-VirtualGND.png)|GND noise |  
-| | ![](Spectrum-Analyzer-Vout-pos.png)|Output Noise (no 7812/7912 reg) | 
+| | ![](Spectrum-Analyzer-Vout-pos.png)|Output Noise (no 7812/7912 reg - 0R5 resistor replaced common mode filter) | 
 | Long Term Product Test | | ongoing |
 
  
