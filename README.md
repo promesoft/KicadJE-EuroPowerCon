@@ -20,6 +20,7 @@ Powerplane for Eurorack Doepfer connectors
 | Initial Product Test | Powercon burn in with 10pin VCF | OK |
 | Initial Product Test | Powercon 16pin |  OK |
 | Initial Product Test | Virtual GND | FAIL - see ERRATA - Working after workaround |
+| Initial Product Test | 24V single ended bypass reg | OK |
 ### Secondary validation
 | Test  | Detail | Status |
 | ------------- | ------------- |------------- |
