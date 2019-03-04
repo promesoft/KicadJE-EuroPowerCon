@@ -28,14 +28,16 @@ Powerplane for Eurorack Doepfer connectors
 | Product Test | Powercon 16pin | VCO ok|
 | Quality | Linear Regulator Noise | |
 | Quality | Dual 12v Switched Mode PSU Noise | |
-| Quality | Single 30v Switched Mode PSU No Regulator Noise | |
 | Quality | Single 30v Switched Mode PSU Linear Regulator Noise | |
 | Quality | Single 24v Switched Mode PSU Noise | |
+| ![](Spectrum-Analyzer-Vin-pos.png)| | 
+| ![](Spectrum-Analyzer-VirtualGND.png)| |  
+| ![](Spectrum-Analyzer-Vout-pos.png)| | 
 | Long Term Product Test | | ongoing |
 
-![](Spectrum Analyzer-Vin pos.png)
-![](KicadEuropower3D-RevB-Top1.png)
-![](Spectrum Analyzer-Vout pos.png)
+![](Spectrum-Analyzer-Vin-pos.png)
+![](Spectrum-Analyzer-VirtualGND.png)
+![](Spectrum-Analyzer-Vout-pos.png)
  
 ### Errata
  * Q2 BD140 err in schematic - C and E flipped by mistake
