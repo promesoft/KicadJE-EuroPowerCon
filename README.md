@@ -43,6 +43,7 @@ Powerplane for Eurorack Doepfer connectors
 ### Issues and Notes
  * fuse holder for +5V should be changed
  * virtual GND should be powered behind fuse
+ * Q2 becomes warm due to higher load on the positive supply when using Virtual GND on single ended supply.
  
 ## Physical Construction
 100x100mm
